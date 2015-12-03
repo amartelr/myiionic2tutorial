@@ -1,4 +1,3 @@
-import {Component, Control, ControlGroup} from 'angular2/angular2';
 import {Page, NavController} from 'ionic/ionic';
 import {Translate, TranslatePipe} from 'ionic/ionic';
 

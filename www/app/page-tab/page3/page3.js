@@ -5,7 +5,8 @@ import {Page} from 'ionic/ionic';
   templateUrl: 'app/page-tab/page3/page3.html'
 })
 export class Page3 {
-  constructor() {
-
-  }
+   constructor(nav: NavController) {
+      this.nav = nav;
+      this.title = "Page 3";
+   }
 }
