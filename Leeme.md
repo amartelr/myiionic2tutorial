@@ -140,6 +140,8 @@ class MyApp {
 ```
 Como ves this.rootPage es asignado a HelloIonicPage, entonces será la primera página cargada en el controlador de navegación.
 
+La página de raíz es la primera página que se podrá ver en su aplicación. Para cambiar las vistas en una aplicación de la versión ionic 2 usted puede cambiar esta página raíz, o realizar push y pop de las vistas. Empujar (Pushing) una vista cambiará a ese punto de vista, y hacer Popoing será quitarlo y volver a la vista anterior. Usted puede push una vista, luego haga otra vista, y otro punto de vista y entonces usted será capaz de navegar de vuelta a través de ellos con el botón generada automáticamente "Volver" o haciendo estallar manualmente los puntos de vista en el código de aplicación.
+
 ## Convenciones de nombres
 
 Usted puede haber notado que cada página tiene su propia carpeta que lleva el nombre de la página. Dentro de cada carpeta, también vemos un .html y un archivo .scss con el mismo nombre. Por ejemplo, dentro de **hello-ionic/** encontraremos **hello-ionic.js**, **hello-ionic.html**, and **hello-ionic.scss**. Aunque no es necesario usar este patrón, puede ser útil mantener las cosas organizadas.
