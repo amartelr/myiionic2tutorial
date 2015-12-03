@@ -3,6 +3,7 @@ import {HelloIonicPage} from './hello-ionic/hello-ionic';
 import {ListPage} from './list/list';
 import {AnimationPage} from './page-animation/page-animation';
 import {ButtonPage} from './page-button/page-button';
+import {CardPage} from './page-card/page-card';
 
 import "./app.scss";
 
@@ -24,7 +25,8 @@ class MyApp {
       { title: 'Hola Ionic2', component: HelloIonicPage },
       { title: 'Mi Primera Lista', component: ListPage },
       { title: 'Animation Page', component: AnimationPage},
-      { title: 'Button Page', component: ButtonPage}
+      { title: 'Button Page', component: ButtonPage},
+      { title: 'Card Page', component: CardPage}
     ];
 
     // Establece HelloIonicPage la raíz (o primera) página
