@@ -8,5 +8,6 @@ import "./hello-ionic.scss";
 export class HelloIonicPage {
   constructor(nav: NavController) {
     this.nav = nav;
+    this.title = "Hola Ionic2";
   }
 }

@@ -1,11 +1,23 @@
-<ion-navbar *navbar>
+<ion-navbar *navbar primary>
   <a menu-toggle>
     <icon menu></icon>
   </a>
-  <ion-title>Página Animation</ion-title>
+  <ion-title>{{title}}</ion-title>
 </ion-navbar>
 
 
-<ion-content padding class="pagina1">
-  <h3>Página Uno</h3>
+<ion-content padding>
+   <h1>{{title}}</h1>
+   <img src="img/me.png" id="ionitron">
+
+   <div style="position:absolute; bottom: 0; display:inline;">
+     <button icon pause primary (click)="pause($event)">
+       Pause
+       <icon pause></icon>
+     </button>
+     <button icon play secondary (click)="play($event)">
+       Play
+       <icon play></icon>
+     </button>
+   </div>
 </ion-content>
