@@ -2,6 +2,7 @@ import {App, IonicApp, Platform} from 'ionic/ionic';
 import {HelloIonicPage} from './hello-ionic/hello-ionic';
 import {ListPage} from './list/list';
 import {AnimationPage} from './page-animation/page-animation';
+import {ButtonPage} from './page-button/page-button';
 
 import "./app.scss";
 
@@ -22,7 +23,8 @@ class MyApp {
     this.pages = [
       { title: 'Hola Ionic2', component: HelloIonicPage },
       { title: 'Mi Primera Lista', component: ListPage },
-      { title: 'Animation Page', component: AnimationPage}
+      { title: 'Animation Page', component: AnimationPage},
+      { title: 'Button Page', component: ButtonPage}
     ];
 
     // Establece HelloIonicPage la raíz (o primera) página
@@ -45,5 +47,5 @@ class MyApp {
     let nav = this.app.getComponent('nav');
     nav.setRoot(page.component);
   }
- 
+
 }
