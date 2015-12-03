@@ -10,4 +10,6 @@ export class HelloIonicPage {
     this.nav = nav;
     this.title = "Hola Ionic2";
   }
+  blur() {
+  }
 }

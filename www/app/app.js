@@ -32,17 +32,6 @@ class MyApp {
   initializeApp() {
     this.platform.ready().then(() => {
       console.log('Platform ready');
-/*
-La plataforma ya está lista. Nota: Si esta devolución de llamada no se ejecuta, siga
-la guía de solución de problemas para un número de posibles soluciones:
-Si está bien, la plataforma está lista y nuestros plugins están disponibles.
-Aquí usted puede hacer cualquier cosas nativas nivel superiores puede que necesite.
-En primer lugar, vamos a ocultar la barra del accesorio de teclado (sólo funciona nativamente) puesto que
-es un defecto mejor:
-Por ejemplo, podríamos cambiar el color de la barra de estado. A continuación es
-bueno para luz de fondo y texto oscuro;
-*/
-
       if (typeof StatusBar !== 'undefined') {
         StatusBar.styleDefault();
       }
@@ -56,4 +45,5 @@ bueno para luz de fondo y texto oscuro;
     let nav = this.app.getComponent('nav');
     nav.setRoot(page.component);
   }
+ 
 }
