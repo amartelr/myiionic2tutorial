@@ -9,6 +9,8 @@ import "./page-animation.scss";
 export class AnimationPage {
   constructor( nav: NavController) {
     this.nav = nav;
+    console.log("nav id. " + nav.id)
+
     this.title = "Animation Page";
 
     this.animation = new Animation();
@@ -23,15 +25,15 @@ export class AnimationPage {
        this.animation.add(ionitronSpin);
 
        this.animation.onReady(animation => {
-         console.log('onReady', animation);
+         console.log('animation onReady', animation);
        });
 
        this.animation.onPlay(animation => {
-         console.log('onPlay', animation);
+         console.log('animation onPlay', animation);
        });
 
        this.animation.onFinish(animation => {
-         console.log('onFinish', animation);
+         console.log('animation onFinish', animation);
        });
   }
    play() {

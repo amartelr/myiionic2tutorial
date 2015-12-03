@@ -264,3 +264,4 @@ http://ionicframework.com/docs/v2/components/
 http://ionicframework.com/docs/v2/platform/
 http://ionicframework.com/docs/v2/resources/
 https://forum.ionicframework.com/
+https://github.com/driftyco/ionic2/tree/master/demos

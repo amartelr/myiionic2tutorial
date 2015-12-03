@@ -10,6 +10,9 @@ import {Page3} from './page3/page3';
 export class TabPage {
   constructor( nav: NavController) {
     this.nav = nav;
+
+    console.log("nav id. " + nav.id)
+    this.title = 'Tab Page'
     this.tab1Root = Page1;
     this.tab2Root = Page2;
     this.tab3Root = Page3;

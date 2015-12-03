@@ -8,6 +8,7 @@ import "./item-details.scss";
 export class ItemDetailsPage {
   constructor(nav: NavController, navParams: NavParams) {
     this.nav = nav;
+    console.log("nav id. " + nav.id)
     // Si navegamos a esta página, vamos a tener un item disponible como un parámetro de navegación
     this.selectedItem = navParams.get('item');
   }
