@@ -273,3 +273,4 @@ We can generate templates files from the ionic commmand line
 
 ionic generate --list
 ionic generate page page-list
+ionic generate page page-icon
