@@ -1,0 +1,28 @@
+<ion-navbar *navbar primary>
+  <a menu-toggle>
+    <icon menu></icon>
+  </a>
+  <ion-title>{{title}}</ion-title>
+</ion-navbar>
+
+<ion-content padding class="page-slide">
+   <ion-slides [options]="extraOptions" style="background-color: black" zoom>
+
+     <ion-slide style="background-color: blue">
+       <h2>Page 1</h2>
+     </ion-slide>
+
+     <ion-slide style="background-color: yellow">
+       <h2>Page 2</h2>
+     </ion-slide>
+
+     <ion-slide style="background-color: pink">
+       <h2>Page 3</h2>
+     </ion-slide>
+
+     <ion-pager>
+     </ion-pager>
+
+   </ion-slides>
+
+</ion-content>

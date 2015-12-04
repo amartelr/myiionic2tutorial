@@ -8,6 +8,8 @@ import {PageList} from './page-list/page-list';
 import {PageIcon} from './page-icon/page-icon';
 //  Pending to find errors
 //import {TabPage} from './page-tab/page-tab';
+import {PageSlide} from './page-slide/page-slide';
+
 
 import "./app.scss";
 
@@ -33,7 +35,9 @@ class MyApp {
       { title: 'Card Page', component: CardPage},
 //      { title: 'Tab Page', component: TabPage},
       { title: 'Page List', component: PageList},
-      { title: 'Page Icon', component: PageIcon}
+      { title: 'Page Icon', component: PageIcon},
+      { title: 'Page Slide', component: PageSlide}
+
     ];
 
     // Establece HelloIonicPage la raíz (o primera) página

@@ -271,6 +271,20 @@ https://github.com/driftyco/ionic2/tree/master/demos
 
 We can generate templates files from the ionic commmand line
 
+
 ionic generate --list
+   * component
+   * directive
+   * injectable
+   * page
+   * page-login
+   * page-sidemenu
+   * page-signup
+   * pipe
+   * tabs
 ionic generate page page-list
 ionic generate page page-icon
+
+ionic-cli generate directive dir-material #falla
+
+ionic generate page page-slide

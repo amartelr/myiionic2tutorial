@@ -5,6 +5,6 @@ import {Page, NavController} from 'ionic/ionic';
 export class PageIcon {
   constructor(nav: NavController) {
     this.nav = nav;
-   
+    this.title = "Button Page";
   }
 }
