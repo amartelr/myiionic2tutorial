@@ -288,3 +288,4 @@ ionic generate page page-icon
 ionic-cli generate directive dir-material #falla
 
 ionic generate page page-slide
+ionic generate page page-tap

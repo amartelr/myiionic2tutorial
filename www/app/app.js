@@ -9,9 +9,10 @@ import {PageIcon} from './page-icon/page-icon';
 //  Pending to find errors
 //import {TabPage} from './page-tab/page-tab';
 import {PageSlide} from './page-slide/page-slide';
+import {PageTap} from './page-tap/page-tap';
 
 
-import "./app.scss";
+import './app.scss';
 
 
 @App({
@@ -36,7 +37,9 @@ class MyApp {
 //      { title: 'Tab Page', component: TabPage},
       { title: 'Page List', component: PageList},
       { title: 'Page Icon', component: PageIcon},
-      { title: 'Page Slide', component: PageSlide}
+      { title: 'Page Slide', component: PageSlide},
+      { title: 'Page Tap', component: PageTap}
+
 
     ];
 
