@@ -4,6 +4,7 @@ import {ListPage} from './list/list';
 import {AnimationPage} from './page-animation/page-animation';
 import {ButtonPage} from './page-button/page-button';
 import {CardPage} from './page-card/page-card';
+import {PageList} from './page-list/page-list';
 //  Pending to find errors
 //import {TabPage} from './page-tab/page-tab';
 
@@ -28,8 +29,10 @@ class MyApp {
       { title: 'Mi Primera Lista', component: ListPage },
       { title: 'Animation Page', component: AnimationPage},
       { title: 'Button Page', component: ButtonPage},
-      { title: 'Card Page', component: CardPage}
+      { title: 'Card Page', component: CardPage},
 //      { title: 'Tab Page', component: TabPage}
+      { title: 'Page List', component: PageList}
+
     ];
 
     // Establece HelloIonicPage la raíz (o primera) página

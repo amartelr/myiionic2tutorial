@@ -267,3 +267,9 @@ http://ionicframework.com/docs/v2/platform/
 http://ionicframework.com/docs/v2/resources/
 https://forum.ionicframework.com/
 https://github.com/driftyco/ionic2/tree/master/demos
+
+
+We can generate templates files from the ionic commmand line
+
+ionic generate --list
+ionic generate page page-list
